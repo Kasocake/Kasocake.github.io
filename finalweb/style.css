@@ -1,0 +1,245 @@
+body
+{
+
+   background:radial-gradient(circle at center,#5A33FF, #33D8FF);
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+/*title stuff*/
+h1 {
+    color:#2b2b2b;
+    font-size:200%;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.rainbowText {
+  font-family:arial black;
+  font-size:70px;
+  background-image: 
+    linear-gradient(to right, black,#2b2b2b, #33FFC0 ,#33D8FF,#5A33FF,#2b2b2b); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 35s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}
+
+
+/*contact page*/
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize:both
+}
+
+
+input[type=submit] {
+  background-color:#33FFC0;
+  color: rgb(36, 36, 36);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #04714e;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  padding: 20px;
+}
+
+
+span.navSpace {
+    text-decoration: none;
+    float: inherit;
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+/*body*/
+
+h2 {color: white;
+    font-size: 300%;
+
+
+    
+}
+h3
+{ color:white;
+
+}
+h4 {
+    color: white;
+    font-size: 200%;
+text-decoration: none;
+line-height: 40px;
+}
+
+h4:hover
+
+{
+    background-color: #33FFC0;
+  }
+
+h5 {
+  color: white;
+  font-size: 200%;
+text-decoration: none;
+line-height: 40px;
+}
+
+h5:hover
+
+{
+  background-color: #33FFC0;
+}
+
+h6 {
+  color: white;
+  font-size: 200%;
+text-decoration: none;
+line-height: 40px;
+}
+
+h6:hover
+
+{ size: 30%;
+  background-color: #33FFC0;
+  background: size 150px;;
+}
+
+/*unvisited link*/
+a.navSpace:link {
+    color:white;
+    text-decoration : none
+}
+
+/*hover link*/
+a.navSpace:hover {
+    color:#33FFC0
+}
+
+/*hover2 link*/
+a.navSpace:active {
+    color:white;
+    text-decoration : none
+}
+
+
+/*shop stuff*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 20%;
+    margin: 3%;
+    text-align: center;
+    font-family: Verdana;
+    border: 2px solid #2b2b2b;
+    float: left;
+    background-color: #2b2b2b;
+    padding: 40px;
+  }
+  
+  .price {
+    color: white;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #33FFC0;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  /*Port*/
+
+  
+ 
+  div.gallery {
+    margin: 15px;
+    border: 5px solid #2b2b2b;
+    background-color: #2b2b2b;
+    float: none;
+    width: 80%;
+    height: auto;
+  }
+  
+  div.gallery:hover {
+    border: 5px solid #33FFC0;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+
+  /*cart stuff*/
+  
+
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
